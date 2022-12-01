@@ -27,8 +27,9 @@ const RGB = [Led.Rojo, Led.Verde, Led.Azul];
 
 // Modificación de propiedades
 //  9.- Dado un objeto de nombre Portatil modifica el valor de la propiedad modelo por el valor P345
-
+Portatil.modelo = 'P345';
 
 //  10.- Dado un objeto de nombre Concierto añade el valor Guns N' Roses a la propiedad cartelera
+Concierto.cartelera.push("Guns N' Roses");
 //  11.- Dado un objeto de nombre Concierto modifica el valor de la propiedad fecha por el valor new Date() (fecha de hoy)
 //  12.- Dado un objeto de nombre Impresora modifica el valor de la propiedad imprimiendo por el valor objeto con propiedades: nombreArchivo, copias, numPaginas
