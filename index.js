@@ -22,7 +22,7 @@ const marcaPortatil2 = Portatil['marca'];
 //  7.- Dado un objeto de nombre Concierto obtén el valor de la propiedad array grupos guardándolo en la variable grupos
 const grupos = Concierto.grupos;
 //  8.- Dado un objeto de nombre Led obtén el valor de las propiedades rojo, verde y azul guardándolo en la variable array RGB[Rojo, Verde, Azul]
-const RGB = [Led.Rojo, Led.Verde, Led.Azul];
+const RGB = [Led.rojo, Led.verde, Led.azul];
 
 
 // Modificación de propiedades
@@ -69,11 +69,10 @@ Grupo.numIntegrantes= 5;
 //  24.- Dado un objeto de nombre Pantalla modifica el valor de la propiedad dimensiones por el valor 1920x1080
 Pantalla.dimensiones= '1920x1080';
 //  25.- Dado un objeto de nombre Led modifica el valor de la propiedad encendido por el valor false si vale true y true si vale false
-/* if(Led.encendido===false) { 
-    return true;
-} else {
-    return false; 
-} */
+if(Led.encendido===false) { 
+    Led.encendido=true;
+} else{ Led.encendido=false;
+} 
     
 //  26.- Dado un objeto de nombre Movil modifica el valor de la propiedad temperatura por el valor 20º
 Movil.temperatura='20º';
