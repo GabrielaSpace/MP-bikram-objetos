@@ -52,8 +52,6 @@ const Avion={ numPasajeros:22 ,
 const Paquete = { contenido:['comida','bebida']};
 //  17.- Crea un objeto de nombre Pais que tenga las propiedades: numHabitantes, continente, gentilicio
 const Pais ={numHabitantes:25000000, continente:'america', gentilicio:'venezolano'};
-
-
 // Lectura de propiedades
 //  18.- Dado un objeto de nombre O_Error obtén el valor de la propiedad codigo guardándolo en la variable codError
 const codError = O_Error.codigo;
@@ -68,7 +66,14 @@ const especificaciones = Movil.especificaciones;
 // Modificación de propiedades
 //  23.- Dado un objeto de nombre Grupo modifica el valor de la propiedad numIntegrantes por el valor 5
 Grupo.numIntegrantes= 5;
-
 //  24.- Dado un objeto de nombre Pantalla modifica el valor de la propiedad dimensiones por el valor 1920x1080
+Pantalla.dimensiones= '1920x1080';
 //  25.- Dado un objeto de nombre Led modifica el valor de la propiedad encendido por el valor false si vale true y true si vale false
+/* if(Led.encendido===false) { 
+    return true;
+} else {
+    return false; 
+} */
+    
 //  26.- Dado un objeto de nombre Movil modifica el valor de la propiedad temperatura por el valor 20º
+Movil.temperatura='20º';
